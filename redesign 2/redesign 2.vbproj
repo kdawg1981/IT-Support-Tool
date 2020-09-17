@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9A5D5ACD-CEE7-498E-8D97-8F062719C64D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>redesign_2.My.MyApplication</StartupObject>
+    <RootNamespace>redesign_2</RootNamespace>
+    <AssemblyName>IT_Support</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\ictsupport\data\scripts\AutoLogon\BetaTest\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>\\ictsupport\data\scripts\autologon\it support tool\</UpdateUrl>
+    <ProductName>IT Support Tool</ProductName>
+    <MinimumRequiredVersion>2.4.0.0</MinimumRequiredVersion>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>3.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>IT_Support.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>IT_Support.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>my_computer.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>13DF32E6A24E02FA1FB5F3C2A3E4586876BFD5DC</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>redesign 2_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>IT_Support.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>IT_Support.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Fix soft HyperAero">
+      <HintPath>H:\Release\Fix soft HyperAero.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Management.Instrumentation" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Citrix.Designer.vb">
+      <DependentUpon>Citrix.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Citrix.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComputerInfo.Designer.vb">
+      <DependentUpon>ComputerInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ComputerInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fix soft Aero Form1.Designer.vb">
+      <DependentUpon>Fix soft Aero Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fix soft Aero Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New_SysInfo.Designer.vb">
+      <DependentUpon>New_SysInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="New_SysInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPN.Designer.vb">
+      <DependentUpon>FPN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FPN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MBCalc.Designer.vb">
+      <DependentUpon>MBCalc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MBCalc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MediaSetup.Designer.vb">
+      <DependentUpon>MediaSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MediaSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New_Autologon.Designer.vb">
+      <DependentUpon>New_Autologon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="New_Autologon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New_Forms_Print.Designer.vb">
+      <DependentUpon>New_Forms_Print.vb</DependentUpon>
+    </Compile>
+    <Compile Include="New_Forms_Print.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New_Main.Designer.vb">
+      <DependentUpon>New_Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="New_Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="new_store_push.Designer.vb">
+      <DependentUpon>new_store_push.vb</DependentUpon>
+    </Compile>
+    <Compile Include="new_store_push.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Outage Email.Designer.vb">
+      <DependentUpon>Outage Email.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Outage Email.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registry.Designer.vb">
+      <DependentUpon>Registry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLog.Designer.vb">
+      <DependentUpon>frmLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITSplash.Designer.vb">
+      <DependentUpon>ITSplash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ITSplash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="root.CIMV2.Win32_Printer.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPN.Designer.vb">
+      <DependentUpon>RPN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RPN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Store.Designer.vb">
+      <DependentUpon>Store.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Store.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scanner.Designer.vb">
+      <DependentUpon>Scanner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Scanner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Corporate.Designer.vb">
+      <DependentUpon>Corporate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Corporate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="auto.Designer.vb">
+      <DependentUpon>auto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="auto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="questions.Designer.vb">
+      <DependentUpon>questions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="questions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.vb">
+      <DependentUpon>admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Store_Software.Designer.vb">
+      <DependentUpon>Store_Software.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Store_Software.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UK_Media_File_Push.Designer.vb">
+      <DependentUpon>UK_Media_File_Push.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UK_Media_File_Push.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinchkPREDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WinchkPREDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WinchkPREDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WinchkPREDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WinchkPREDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WinchkPREDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WinchkPREDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WinchkPREDataSet3.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Citrix.resx">
+      <DependentUpon>Citrix.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComputerInfo.resx">
+      <DependentUpon>ComputerInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fix soft Aero Form1.resx">
+      <DependentUpon>Fix soft Aero Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New_SysInfo.resx">
+      <DependentUpon>New_SysInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPN.resx">
+      <DependentUpon>FPN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MBCalc.resx">
+      <DependentUpon>MBCalc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MediaSetup.resx">
+      <DependentUpon>MediaSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New_Autologon.resx">
+      <DependentUpon>New_Autologon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New_Forms_Print.resx">
+      <DependentUpon>New_Forms_Print.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New_Main.resx">
+      <DependentUpon>New_Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="new_store_push.resx">
+      <DependentUpon>new_store_push.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Outage Email.resx">
+      <DependentUpon>Outage Email.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registry.resx">
+      <DependentUpon>Registry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLog.resx">
+      <DependentUpon>frmLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITSplash.resx">
+      <DependentUpon>ITSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPN.resx">
+      <DependentUpon>RPN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store.resx">
+      <DependentUpon>Store.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scanner.resx">
+      <DependentUpon>Scanner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Corporate.resx">
+      <DependentUpon>Corporate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="auto.resx">
+      <DependentUpon>auto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="questions.resx">
+      <DependentUpon>questions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store_Software.resx">
+      <DependentUpon>Store_Software.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UK_Media_File_Push.resx">
+      <DependentUpon>UK_Media_File_Push.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="WinchkPREDataSet.xsc">
+      <DependentUpon>WinchkPREDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="WinchkPREDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WinchkPREDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WinchkPREDataSet.xss">
+      <DependentUpon>WinchkPREDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="WinchkPREDataSet1.xsc">
+      <DependentUpon>WinchkPREDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="WinchkPREDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WinchkPREDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WinchkPREDataSet1.xss">
+      <DependentUpon>WinchkPREDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="WinchkPREDataSet2.xsc">
+      <DependentUpon>WinchkPREDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="WinchkPREDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WinchkPREDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WinchkPREDataSet2.xss">
+      <DependentUpon>WinchkPREDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="WinchkPREDataSet3.xsc">
+      <DependentUpon>WinchkPREDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="WinchkPREDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WinchkPREDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WinchkPREDataSet3.xss">
+      <DependentUpon>WinchkPREDataSet3.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="redesign 2_TemporaryKey.pfx" />
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tools%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tools%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_blue_software_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keys.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\install1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="copy_document.ico" />
+    <Content Include="hitchhikeguidetogalaxy1_config.ico" />
+    <Content Include="my_computer.ico" />
+    <None Include="Resources\gtk_media_forward_ltr.png" />
+    <None Include="Resources\minimize.png" />
+    <None Include="Resources\exit %283%29.png" />
+    <None Include="Resources\exit %282%29.png" />
+    <None Include="Resources\exit %281%29.png" />
+    <None Include="Resources\united_kingdom_flag.png" />
+    <None Include="Resources\uk-flag.jpg" />
+    <None Include="Resources\down %281%29.png" />
+    <None Include="Resources\old_openofficeorg_draw.png" />
+    <None Include="Resources\exit2.png" />
+    <None Include="Resources\network_offline.png" />
+    <None Include="Resources\error.png" />
+    <None Include="Resources\server.png" />
+    <None Include="Resources\applescript_utility.png" />
+    <None Include="Resources\gnome_dev_printer_network.png" />
+    <None Include="Resources\software_dvd_1.png" />
+    <None Include="Resources\get_info.png" />
+    <None Include="Resources\recycle.png" />
+    <None Include="Resources\calc.png" />
+    <None Include="Resources\preferences_system_login.png" />
+    <None Include="Resources\exit%281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSScriptControl">
+      <Guid>{0E59F1D2-1FBE-11D0-8FF2-00A0D10038BC}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Scripting">
+      <Guid>{420B2830-E718-11CF-893D-00A0C9054228}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBScript_RegExp_10">
+      <Guid>{3F4DACA7-160D-11D2-A8E9-00104B365C9F}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBScript_RegExp_55">
+      <Guid>{3F4DACA7-160D-11D2-A8E9-00104B365C9F}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WbemScripting">
+      <Guid>{565783C6-CB41-11D1-8B02-00600806D9B6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

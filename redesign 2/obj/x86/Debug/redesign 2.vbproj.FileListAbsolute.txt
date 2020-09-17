@@ -1,0 +1,113 @@
+C:\Documents and Settings\kevinmorales\my documents\visual studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\kevinmorales\my documents\visual studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmSupport.resources
+C:\Documents and Settings\kevinmorales\my documents\visual studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.Resources.resources
+C:\Documents and Settings\kevinmorales\my documents\visual studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\kevinmorales\my documents\visual studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\kevinmorales\my documents\visual studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmSoftware.resources
+C:\Documents and Settings\kevinmorales\my documents\visual studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmLogon.resources
+C:\Documents and Settings\kevinmorales\my documents\visual studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmQuestions.resources
+C:\Documents and Settings\kevinmorales\my documents\visual studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmPWD.resources
+C:\Documents and Settings\kevinmorales\my documents\visual studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign 2.vbproj.ResolveComReference.cache
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.AboutBox1.resources
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\bin\Debug\IT_Support.exe.config
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\bin\Debug\IT_Support.exe
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\bin\Debug\IT_Support.pdb
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\bin\Debug\IT_Support.xml
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\IT_Support.exe
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\IT_Support.xml
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\IT_Support.pdb
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.Scanner.resources
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmStore.resources
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\bin\Debug\IT_Support.exe.manifest
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\bin\Debug\IT_Support.application
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\IT_Support.exe.manifest
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\IT_Support.application
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.ITSplash.resources
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmLog.resources
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\Interop.VBScript_RegExp_55.dll
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\Interop.WbemScripting.dll
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.MBCalc.resources
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.MediaSetup.resources
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.Registry.resources
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.ComputerInfo.resources
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.FPN.resources
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\Interop.Scripting.dll
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\Interop.VBScript_RegExp_10.dll
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\Interop.MSScriptControl.dll
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.RPN.resources
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmOutput.resources
+C:\Documents and Settings\kevinmorales\My Documents\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.AeroForm.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\bin\Debug\IT_Support.exe.config
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\Interop.MSScriptControl.dll
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\Interop.Scripting.dll
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\Interop.VBScript_RegExp_10.dll
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\Interop.VBScript_RegExp_55.dll
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\Interop.WbemScripting.dll
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign 2.vbproj.ResolveComReference.cache
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\IT_Support.exe
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\IT_Support.xml
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\IT_Support.pdb
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\bin\Debug\IT_Support.exe.manifest
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\bin\Debug\IT_Support.application
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\bin\Debug\IT_Support.exe
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\bin\Debug\IT_Support.pdb
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\bin\Debug\IT_Support.xml
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.AboutBox1.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.ComputerInfo.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.AeroForm.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmOutput.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.FPN.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.MBCalc.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.MediaSetup.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.Registry.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmLog.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.ITSplash.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.RPN.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmStore.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmSupport.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.Scanner.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmSoftware.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmLogon.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmQuestions.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmPWD.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.Resources.resources
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign 2.vbproj.GenerateResource.Cache
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\IT_Support.exe.manifest
+\\ictsupport\data\Scripts\AutoLogon\backup\Backup 2-17-2014\Visual Studio 2010\Projects\redesign 2\redesign 2\obj\x86\Debug\IT_Support.application
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\bin\Debug\IT_Support.exe.config
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\Interop.MSScriptControl.dll
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\Interop.Scripting.dll
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\Interop.VBScript_RegExp_10.dll
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\Interop.VBScript_RegExp_55.dll
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\Interop.WbemScripting.dll
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign 2.vbproj.ResolveComReference.cache
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\IT_Support.exe
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\IT_Support.xml
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\IT_Support.pdb
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\bin\Debug\IT_Support.exe.manifest
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\bin\Debug\IT_Support.application
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\bin\Debug\IT_Support.exe
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\bin\Debug\IT_Support.pdb
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\bin\Debug\IT_Support.xml
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.AboutBox1.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.ComputerInfo.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.AeroForm.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmOutput.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.FPN.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.MBCalc.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.MediaSetup.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.Registry.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmLog.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.ITSplash.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.RPN.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmStore.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmSupport.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.Scanner.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmSoftware.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmLogon.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmQuestions.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.frmPWD.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign_2.Resources.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\redesign 2.vbproj.GenerateResource.Cache
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\IT_Support.exe.manifest
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x86\Debug\IT_Support.application

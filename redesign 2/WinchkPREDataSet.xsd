@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="WinchkPREDataSet" targetNamespace="http://tempuri.org/WinchkPREDataSet.xsd" xmlns:mstns="http://tempuri.org/WinchkPREDataSet.xsd" xmlns="http://tempuri.org/WinchkPREDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="WinchkPREConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="WinchkPREConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.redesign_2.My.MySettings.GlobalReference.Default.WinchkPREConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Store_WindowsTableAdapter" GeneratorDataComponentClassName="Store_WindowsTableAdapter" Name="Store_Windows" UserDataComponentName="Store_WindowsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="WinchkPREConnectionString (MySettings)" DbObjectName="WinchkPRE.dbo.Store_Windows" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Computer_Name FROM dbo.Store_Windows</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Computer_Name" DataSetColumn="Computer_Name" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="WinchkPREDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="WinchkPREDataSet" msprop:Generator_UserDSName="WinchkPREDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Store_Windows" msprop:Generator_TableClassName="Store_WindowsDataTable" msprop:Generator_TableVarName="tableStore_Windows" msprop:Generator_TablePropName="Store_Windows" msprop:Generator_RowDeletingName="Store_WindowsRowDeleting" msprop:Generator_RowChangingName="Store_WindowsRowChanging" msprop:Generator_RowEvHandlerName="Store_WindowsRowChangeEventHandler" msprop:Generator_RowDeletedName="Store_WindowsRowDeleted" msprop:Generator_UserTableName="Store_Windows" msprop:Generator_RowChangedName="Store_WindowsRowChanged" msprop:Generator_RowEvArgName="Store_WindowsRowChangeEvent" msprop:Generator_RowClassName="Store_WindowsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Computer_Name" msprop:Generator_ColumnVarNameInTable="columnComputer_Name" msprop:Generator_ColumnPropNameInRow="Computer_Name" msprop:Generator_ColumnPropNameInTable="Computer_NameColumn" msprop:Generator_UserColumnName="Computer_Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

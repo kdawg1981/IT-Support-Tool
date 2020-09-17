@@ -1,0 +1,46 @@
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\bin\x64\Debug\IT_Support.exe.config
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\Interop.MSScriptControl.dll
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\Interop.Scripting.dll
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\Interop.VBScript_RegExp_10.dll
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\Interop.VBScript_RegExp_55.dll
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\Interop.WbemScripting.dll
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign 2.vbproj.ResolveComReference.cache
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\bin\x64\Debug\IT_Support.exe.manifest
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\bin\x64\Debug\IT_Support.application
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\bin\x64\Debug\IT_Support.exe
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\bin\x64\Debug\IT_Support.pdb
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\bin\x64\Debug\IT_Support.xml
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign_2.ComputerInfo.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign_2.AeroForm.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign_2.frmOutput.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign_2.FPN.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign_2.MBCalc.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign_2.MediaSetup.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign_2.Registry.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign_2.frmLog.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign_2.ITSplash.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign_2.RPN.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign_2.frmStore.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign_2.frmSupport.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign_2.Scanner.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign_2.frmSoftware.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign_2.frmLogon.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign_2.frmQuestions.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign_2.frmPWD.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign_2.Resources.resources
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign 2.vbproj.GenerateResource.Cache
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\IT_Support.exe.manifest
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\IT_Support.application
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\IT_Support.exe
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\IT_Support.xml
+C:\Users\kevinmorales\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\IT_Support.pdb
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\bin\x64\Debug\IT_Support.exe.config
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\Interop.MSScriptControl.dll
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\Interop.Scripting.dll
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\Interop.VBScript_RegExp_10.dll
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\Interop.VBScript_RegExp_55.dll
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\Interop.WbemScripting.dll
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\redesign 2.vbproj.ResolveComReference.cache
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\IT_Support.exe
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\IT_Support.xml
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\redesign 2\redesign 2\obj\x64\Debug\IT_Support.pdb

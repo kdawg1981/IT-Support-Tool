@@ -1,0 +1,398 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+IT_Support
+</name>
+</assembly>
+<members>
+<member name="T:redesign_2.WinchkPREDataSet1.Store_WindowsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet1.Store_WindowsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet1.Store_WindowsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet1TableAdapters.Store_WindowsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(redesign_2.WinchkPREDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(redesign_2.WinchkPREDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(redesign_2.WinchkPREDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSet1TableAdapters.TableAdapterManager.UpdateAll(redesign_2.WinchkPREDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:redesign_2.AeroForm.AutoAeroChange">
+	<summary>
+ Gets or sets Is Automatical change AeroBackgound to True when Aero is Enable?
+ </summary>
+</member><member name="P:redesign_2.AeroForm.AeroEnabled">
+	<summary>
+ Gets is Aero Glass Enabled.
+ </summary>
+</member><member name="P:redesign_2.AeroForm.GlowValue">
+	<summary>
+ Gets or sets Labels Glow Value.
+ </summary>
+</member><member name="P:redesign_2.AeroForm.AutoShowLabels">
+	<summary>
+ Gets or sets Is Automatical call ShowLabel for Labels?
+ It can be slow in big forms.
+ </summary>
+</member><member name="P:redesign_2.AeroForm.CurrentAeroColor">
+	<summary>
+ Gets Current Aero Color.
+ </summary>
+</member><member name="P:redesign_2.AeroForm.AeroGlassEnabled">
+	<summary>
+ Gets or sets Aero Glass Enabled.
+ If you changed this property,You need to wait for a restart to changes applied.If you don't like waiting,you most change AeroEnabled to False and then change AeroEnabled to True.
+ </summary>
+</member><member name="E:redesign_2.AeroForm.AeroEffectEnabled">
+	<summary>
+ Occurs when Areo Turn on.
+ </summary>
+</member><member name="E:redesign_2.AeroForm.AeroEffectDisabled">
+	<summary>
+ Occurs when Areo Turn off.
+ </summary>
+</member><member name="E:redesign_2.AeroForm.AeroColorOrGlassChanged">
+	<summary>
+ Occurs when Aero Color changed.
+ </summary>
+	<param name="Sender">Gets Sender.</param>
+	<param name="NewColor">Gets New Color of Aero.</param>
+</member><member name="M:redesign_2.AeroForm.ResetAeroGlass">
+	<summary>
+ Call DwmExtendFrameIntoClientArea with nagetive numbers and set backcolor to black.
+ </summary>
+</member><member name="M:redesign_2.AeroForm.ExceptFromAero(System.Windows.Forms.Control,System.Int32)">
+	<summary>
+ Many controls doesn't support Aero Frame.
+ </summary>
+	<param name="Control">Control that be except.</param>
+	<param name="InValue">A number except go in.</param>
+</member><member name="T:redesign_2.AeroForm">
+	<summary>
+ A Aero glass Form.
+ Warning: Form BackColor most be Black!
+ Do not use Buttons.
+ If you want use Textbox,change BackColor to Black and ForeColor to Whte.
+ Change all BackColors to transparent (Ecept TextBoxes.) 
+ All Rights Reserved.
+ Fix soft 2010
+ www.FixOSoft.wordpress.com
+ By FeryFM.
+ </summary>
+</member><member name="P:redesign_2.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources._error">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources._exit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.applescript_utility">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.calc">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.down__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.exit__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.exit__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.exit__3_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.exit_1_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.folder_blue_software_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.get_info">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.gnome_dev_printer_network">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.gtk_media_forward_ltr">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.install1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.keys">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.minimize">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.network_offline">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.old_openofficeorg_draw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.preferences_system_login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.recycle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.report">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.server">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.software_dvd_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.tools_2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.uk_flag">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.united_kingdom_flag">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:redesign_2.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet3.Store_WindowsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet3.Store_WindowsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet3.Store_WindowsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet3TableAdapters.Store_WindowsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(redesign_2.WinchkPREDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(redesign_2.WinchkPREDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(redesign_2.WinchkPREDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSet3TableAdapters.TableAdapterManager.UpdateAll(redesign_2.WinchkPREDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet2.Store_WindowsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet2.Store_WindowsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet2.Store_WindowsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet2TableAdapters.Store_WindowsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(redesign_2.WinchkPREDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(redesign_2.WinchkPREDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(redesign_2.WinchkPREDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSet2TableAdapters.TableAdapterManager.UpdateAll(redesign_2.WinchkPREDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet.Store_WindowsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet.Store_WindowsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet.Store_WindowsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSetTableAdapters.Store_WindowsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(redesign_2.WinchkPREDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(redesign_2.WinchkPREDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(redesign_2.WinchkPREDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:redesign_2.WinchkPREDataSetTableAdapters.TableAdapterManager.UpdateAll(redesign_2.WinchkPREDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:redesign_2.WinchkPREDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

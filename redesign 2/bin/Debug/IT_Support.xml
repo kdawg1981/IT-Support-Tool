@@ -1,0 +1,86 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+IT_Support
+</name>
+</assembly>
+<members>
+<member name="P:redesign_2.AeroForm.AutoAeroChange">
+	<summary>
+ Gets or sets Is Automatical change AeroBackgound to True when Aero is Enable?
+ </summary>
+</member><member name="P:redesign_2.AeroForm.AeroEnabled">
+	<summary>
+ Gets is Aero Glass Enabled.
+ </summary>
+</member><member name="P:redesign_2.AeroForm.GlowValue">
+	<summary>
+ Gets or sets Labels Glow Value.
+ </summary>
+</member><member name="P:redesign_2.AeroForm.AutoShowLabels">
+	<summary>
+ Gets or sets Is Automatical call ShowLabel for Labels?
+ It can be slow in big forms.
+ </summary>
+</member><member name="P:redesign_2.AeroForm.CurrentAeroColor">
+	<summary>
+ Gets Current Aero Color.
+ </summary>
+</member><member name="P:redesign_2.AeroForm.AeroGlassEnabled">
+	<summary>
+ Gets or sets Aero Glass Enabled.
+ If you changed this property,You need to wait for a restart to changes applied.If you don't like waiting,you most change AeroEnabled to False and then change AeroEnabled to True.
+ </summary>
+</member><member name="E:redesign_2.AeroForm.AeroEffectEnabled">
+	<summary>
+ Occurs when Areo Turn on.
+ </summary>
+</member><member name="E:redesign_2.AeroForm.AeroEffectDisabled">
+	<summary>
+ Occurs when Areo Turn off.
+ </summary>
+</member><member name="E:redesign_2.AeroForm.AeroColorOrGlassChanged">
+	<summary>
+ Occurs when Aero Color changed.
+ </summary>
+	<param name="Sender">Gets Sender.</param>
+	<param name="NewColor">Gets New Color of Aero.</param>
+</member><member name="M:redesign_2.AeroForm.ResetAeroGlass">
+	<summary>
+ Call DwmExtendFrameIntoClientArea with nagetive numbers and set backcolor to black.
+ </summary>
+</member><member name="M:redesign_2.AeroForm.ExceptFromAero(System.Windows.Forms.Control,System.Int32)">
+	<summary>
+ Many controls doesn't support Aero Frame.
+ </summary>
+	<param name="Control">Control that be except.</param>
+	<param name="InValue">A number except go in.</param>
+</member><member name="T:redesign_2.AeroForm">
+	<summary>
+ A Aero glass Form.
+ Warning: Form BackColor most be Black!
+ Do not use Buttons.
+ If you want use Textbox,change BackColor to Black and ForeColor to Whte.
+ Change all BackColors to transparent (Ecept TextBoxes.) 
+ All Rights Reserved.
+ Fix soft 2010
+ www.FixOSoft.wordpress.com
+ By FeryFM.
+ </summary>
+</member><member name="P:redesign_2.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:redesign_2.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:redesign_2.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
